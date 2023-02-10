@@ -392,7 +392,7 @@ enter: ''', end='')
                                             archive_name='Ticker_Stats.csv')
             data.to_csv('Ticker_Data.zip', compression = compression_Ticker_Data)
             stats.to_csv('Ticker_Stats.zip', compression = compression_Ticker_Stats)
-            print('''[Ticker_Stats.zip, Ticker_Data.zip files created in G_Terminal folder.]\n''')
+            print('''[Ticker_Stats.zip, Ticker_Data.zip files created in Y_Terminal folder.]\n''')
             break
         
         if (choice != '') & (choice != 'n') & (choice != 'y'):
