@@ -1,8 +1,8 @@
 #! python3
 #! Y_Terminal.py
 
-'''
-This is a terminal interface that facilitates a financial analysis tool.
+''' 
+This is a terminal interface that facilitates a financial analysis tool
 
 '''
 
