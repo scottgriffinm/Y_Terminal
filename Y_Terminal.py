@@ -1,5 +1,5 @@
 #! python3
-#! G_Terminal.py
+#! Y_Terminal.py
 
 '''
 This is a terminal interface that facilitates a financial analysis tool.
@@ -50,7 +50,7 @@ while True:
     print(f'''
 Welcome to the
 
-G _ T E R M I N A L
+Y _ T E R M I N A L
 
 version {version}
 
@@ -60,7 +60,7 @@ Menu
 -----------------------------------------------
 (type a command below and hit enter)
 
--h      How to use the G_Terminal
+-h      How to use the Y_Terminal
 -v      Version and information
 -a      Historical analysis tool
 -m      Motivation
@@ -74,7 +74,7 @@ Menu
             insertSpace() # a bunch of newlines
             print('''
 ---------------------------------------------------------------------------------------------------------------
-How to use the G_Terminal:
+How to use the Y_Terminal:
 
     You enter in commands by typing the commands and pressing the enter key.
 ---------------------------------------------------------------------------------------------------------------
@@ -99,15 +99,11 @@ Historical analysis tool (-a):
 ---------------------------------------------------------------------------------------------------------------
 Version and information (-v):
 
-    This displays the current version of the G_Terminal as well as some information about it.
+    This displays the current version of the Y_Terminal as well as some information about it.
 ---------------------------------------------------------------------------------------------------------------
 Motivation (-m):
 
     Gives the user some motivation to work hard.
----------------------------------------------------------------------------------------------------------------
-Secret guh (im not telling you):
-
-    Secret guh.
 ---------------------------------------------------------------------------------------------------------------
 
 ''')
@@ -122,7 +118,7 @@ Secret guh (im not telling you):
         elif choice == '-v': # Version message
             insertSpace()
             print('''
-G_Terminal
+Y_Terminal
 version {version}
 no copyright go bananas
 
@@ -156,16 +152,6 @@ email->scottgriffinm@gmail.com
                     insertSpace()
                     break
             break
-
-        elif choice == 'guh': # Secret guh
-            insertSpace()
-            print('''
-              0
-             /|\\
-              |
-             / \\
-            ''')
-            print('CONGRATULATIONS!!!\nYou found the secret guh.')
             
             while True:
                 print('Press enter to return to menu.')
